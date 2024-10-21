@@ -50,7 +50,7 @@ object TeamcityRepo : BuildType({
         vcs {
             branchFilter = """
                 +:*
-                +:master
+                +:master**
             """.trimIndent()
         }
     }
