@@ -33,7 +33,7 @@ project {
     buildType(TeamcityRepo)
 
     params {
-        password("teamcity.git.gitProxy.auth", "credentialsJSON:4a8fd896-2ff1-4613-882d-2bff21500ef8")
+        password("teamcity.git.gitProxy.auth.comparisonTest", "credentialsJSON:4a8fd896-2ff1-4613-882d-2bff21500ef8")
         param("teamcity.internal.git.gitProxy.changesCollectionComparison.enabled", "true")
         param("teamcity.git.gitProxy.url", "https://git.jetbrains.team/~rpc")
         param("teamcity.internal.git.changesCollectionTimeLogging.enabled", "true")
