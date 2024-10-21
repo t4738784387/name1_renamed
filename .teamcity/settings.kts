@@ -48,6 +48,10 @@ object TeamcityRepo : BuildType({
 
     triggers {
         vcs {
+            branchFilter = """
+                +:*
+                +:master
+            """.trimIndent()
         }
     }
 })
